@@ -1,19 +1,20 @@
-ple<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Home</title>
+    <title>GamePetition — Mobilize Players, Influence Developers</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="site-header">
       <nav class="nav">
-        <div class="logo">MyHome</div>
+        <div class="logo">GamePetition</div>
         <div class="nav-links">
-          <a href="#about">About</a>
-          <a href="#features">Features</a>
-          <a href="#contact">Contact</a>
+          <a href="#why">Why</a>
+          <a href="#usps">USPs</a>
+          <a href="#how">How It Works</a>
+          <a href="#start">Start</a>
         </div>
       </nav>
     </header>
@@ -21,56 +22,90 @@ ple<!DOCTYPE html>
     <main>
       <section class="hero">
         <div class="hero-content">
-          <h1>Welcome to Your New Home Page  fuck yeah people
-        </h1>
-          <p>
-            A clean, modern starting point you can customize for your personal
-            site, portfolio, or small project.
-          </p>
+          <h1>Turn Player Voices Into Real Change</h1>
+          <p class="lede">Online petitions built for gamers — launch, share, and influence game developers fast.</p>
           <div class="hero-actions">
-            <a href="#features" class="btn primary">Explore Features</a>
-            <a href="#contact" class="btn ghost">Get in Touch</a>
+            <a href="#start" class="btn primary">Start a Petition</a>
+            <a href="#usps" class="btn ghost">See Key Benefits</a>
           </div>
         </div>
       </section>
 
-      <section id="about" class="section about">
-        <h2>About This Page</h2>
-        <p>
-          This is a minimal, responsive home page built with just HTML and CSS.
-          It is easy to extend with your own content, branding, and components.
-        </p>
+      <section id="why" class="section about">
+        <h2>Why GamePetition?</h2>
+        <p>We help player communities organize around features, balance, server issues, mod support, and policy changes — and deliver those petitions directly to the teams that can act.</p>
       </section>
 
-      <section id="features" class="section features">
-        <h2>Highlights</h2>
-        <div class="feature-grid">
-          <article class="feature-card">
-            <h3>Responsive Layout</h3>
-            <p>Looks great on desktops, tablets, and phones.</p>
-          </article>
-          <article class="feature-card">
-            <h3>Clean Structure</h3>
-            <p>Simple markup that’s easy to customize or expand.</p>
-          </article>
-          <article class="feature-card">
-            <h3>Ready for GitHub Pages</h3>
-            <p>Just push to GitHub and publish in minutes.</p>
-          </article>
-        </div>
+      <section id="usps" class="section features">
+        <h2>Unique Selling Points (USPs)</h2>
+        <ul class="usp-list">
+          <li><strong>Real-time Signature Tracking:</strong> Live counters and growth graphs for every petition.</li>
+          <li><strong>Verified Gamer Accounts:</strong> Link profiles from Steam, Xbox, PlayStation, or Discord to improve credibility.</li>
+          <li><strong>Game-Specific Templates:</strong> Pre-built petition templates for bugs, features, servers, monetisation complaints, and more.</li>
+          <li><strong>Built-in Social Sharing:</strong> One-click sharing to Twitter, Discord, Reddit, and Facebook with optimized previews.</li>
+          <li><strong>Developer Outreach Tools:</strong> Send curated reports and signature summaries directly to developer contacts.</li>
+          <li><strong>In-Game Overlay Support:</strong> Optional overlays show petition progress while playing (where supported).</li>
+          <li><strong>Powerful Analytics:</strong> Demographics, geo-heatmaps, referral tracking, and signature quality scoring.</li>
+          <li><strong>Fraud Detection & Moderation:</strong> Anti-bot checks, rate limits, and moderation workflows to keep petitions legitimate.</li>
+          <li><strong>GDPR & Privacy First:</strong> Clear consent, data controls, and exportable records for compliance.</li>
+          <li><strong>Multi-language Support:</strong> Localize petitions and landing pages for global player bases.</li>
+          <li><strong>Mobile-First Experience:</strong> Responsive signing flows and push-ready share cards for mobile users.</li>
+          <li><strong>Custom Branding:</strong> White-label petitions with logos, colors, and domains for communities and influencers.</li>
+          <li><strong>Webhook & API Integrations:</strong> Connect signatures to CRMs, analytics, and community tools.</li>
+          <li><strong>Pre-Verified Signatures:</strong> Optional gating by platform account to increase developer trust.</li>
+          <li><strong>Email Campaigns & Alerts:</strong> Notify signers, donors, and stakeholders when petitions hit milestones.</li>
+          <li><strong>Signature Milestones & Gamification:</strong> Badges, goals, and progress bars to motivate supporters.</li>
+          <li><strong>Exportable Evidence Packs:</strong> Download curated packets (signatures, comments, analytics) to send with formal requests.</li>
+          <li><strong>Community Moderation:</strong> Trusted moderators can vet and promote high-quality petitions.</li>
+          <li><strong>Easy Embedded Widgets:</strong> Place sign-up widgets or progress bars on external sites and forums.</li>
+          <li><strong>Low Friction UX:</strong> Fast sign flow (name + email) with optional verified account add-ons.</li>
+        </ul>
       </section>
 
-      <section id="contact" class="section contact">
-        <h2>Contact</h2>
-        <p>
-          Replace this text with your own contact details, links, or a contact
-          form.
-        </p>
+      <section id="how" class="section how">
+        <h2>How It Works</h2>
+        <ol class="how-steps">
+          <li><strong>Create:</strong> Choose a template, write your ask, and target the right developer or studio.</li>
+          <li><strong>Share:</strong> Use built-in social tools, widgets, and integrations to reach players across platforms.</li>
+          <li><strong>Collect:</strong> Track real-time signatures, comments, and supporter data.</li>
+          <li><strong>Deliver:</strong> Generate an evidence pack and send it to the developer with clear, measurable demands.</li>
+          <li><strong>Follow Up:</strong> Use email campaigns and updates to keep momentum and pressure.</li>
+        </ol>
+      </section>
+
+      <section id="start" class="section start">
+        <h2>Start or Sign a Petition</h2>
+        <p>Get your cause noticed — start a petition or sign one in under a minute.</p>
+        <form class="petition-form" action="#" method="post">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+          <label for="game">Game / Studio</label>
+          <input id="game" name="game" type="text" placeholder="Game or studio name" />
+
+          <label for="message">What are you asking for?</label>
+          <textarea id="message" name="message" rows="4" placeholder="Explain the change you want"></textarea>
+
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Sign Petition</button>
+            <button type="button" class="btn ghost">Preview Petition</button>
+          </div>
+        </form>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© 2026 Your Name. All rights reserved.</p>
+      <div class="footer-inner">
+        <p>© 2026 GamePetition — Built for player communities.</p>
+        <nav class="footer-nav">
+          <a href="#privacy">Privacy</a>
+          <a href="#terms">Terms</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </footer>
   </body>
 </html>
